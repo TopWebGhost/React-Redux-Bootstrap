@@ -1,0 +1,47 @@
+.contactlist {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: #7f7f7f;
+  padding: 20px;
+}
+.contactlist .title {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-bottom: 1px rgb(217, 217, 217) solid;
+}
+.contactlist .title .pen {
+  float: right;
+  background: url('../../assets/img/pen.png') 0 0 no-repeat;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+}
+.contactlist  p {
+    margin: 0;
+    font-size: 12px;
+  }
+.contactlist  ul {
+  list-style: none;
+  padding: 0;
+}
+.contactlist  ul li {
+  background-image: url('../../assets/img/user.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  padding-left: 60px;
+  margin-top: 20px;
+  color: rgb(89, 89, 89);
+}
+.contactlist  ul li .name {
+  font-weight: bold;
+}
+.contactlist  ul li .job {
+
+}
+.contactlist  ul li .phone {
+
+}
+.contactlist  ul li .email {
+  color: rgb(85, 188, 231);
+}

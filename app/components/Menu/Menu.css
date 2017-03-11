@@ -1,0 +1,25 @@
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 20px 30px;
+  height: 80px;
+}
+.menu li {
+  margin-right: 50px;
+  padding: 5px;
+  width: 120px;
+  text-align: center;
+}
+.menu li a {
+  font-size: 14px;
+  color: rgb(127, 127, 127);
+  text-transform: uppercase;
+}
+
+.menu li:hover {
+  border-bottom: 3px solid rgb(85, 188, 231);
+}
+.menu li:hover a {
+  font-weight: bold;
+  text-decoration: none;
+}

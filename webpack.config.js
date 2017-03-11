@@ -58,6 +58,10 @@ module.exports = {
                 loader: 'style!css?modules&localIdentName=[name]---[local]---[hash:base64:5]!sass'
             },
             {
+                test: /\.css$/,
+                loader: 'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]'
+            },
+            {
                 test: /\.(jpe?g|png|gif|svg)$/i,
                 loaders: [
                     'file?hash=sha512&digest=hex&name=[hash].[ext]',

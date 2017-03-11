@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-import style from './ContactList.scss';
+import style from './ContactList.css';
 
 const ContactList = ( {contacts}) =>
     <div className={style.contactlist}>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-import style from './Menu.scss';
+import style from './Menu.css';
 
 const Menu = () =>
     <ul className={style.menu}>

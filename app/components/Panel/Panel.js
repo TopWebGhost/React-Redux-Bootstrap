@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { Col } from 'react-bootstrap';
 
-import style from './Panel.scss';
+import style from './Panel.css';
 
 const Panel = ({data, status}) =>
      <div className={style.panel}>

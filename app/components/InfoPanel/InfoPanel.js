@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { Col, Row } from 'react-bootstrap';
 
-import style from './InfoPanel.scss';
+import style from './InfoPanel.css';
 
 import Panel from '../Panel/Panel';
 
